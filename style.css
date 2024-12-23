@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: rgba(8, 15, 23, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+
+
+/*---------------------------------------- Header ----------------------------------------*/
+
+
+
+header {
+    padding-top: 24px
+}
+
+.header {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(162, 210, 96, 0.06);
+    border-radius: 16px;
+    padding: 24px 32px;
+    backdrop-filter: blur(96px);
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.16);
+    width: Fixed (1,080px)px;
+    border: 1.5px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagelinks, .socials {
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
+}
+
+.pagelinks p {
+    color: rgba(214, 221, 230, 1);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.socials {
+    justify-content: end;
+}
+
+.socials p {
+    color: rgba(214, 221, 230, 1);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.logo p {
+    color: rgba(214, 221, 230, 1);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0;
+    font-family: sans-serif;
+    letter-spacing: -0.04em;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .pagelinks {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo p {
+        text-align: center;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- Heading and Image ----------------------------------------*/
+
+
+
+.main-content {
+    padding: 48px 0;
+}
+
+#heading-and-image {
+    width: 100%;
+    padding: 96px 0;
+}
+
+#heading-and-image h1 {
+    color: rgba(214, 221, 230, 1);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+#heading-and-image img {
+    width: 100%;
+}
+
+
+
+/*---------------------------------------- Projects Overview ----------------------------------------*/
+
+
+
+#projects-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.project {
+    margin-bottom: 48px;
+}
+
+.project p:nth-child(even) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(214, 221, 230, 1);
+    margin-bottom: 0;
+}
+
+.project p:nth-child(odd) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(214, 221, 230, 0.62);
+    margin-top: 0;
+}
+
+.project:hover {
+    transition-duration: 1.5s;
+    transform: scale(1.1);
+}
+
+
+
+/*---------------------------------------- Title & Description Section ----------------------------------------*/
+
+
+
+#title-and-description {
+    padding: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    width: 48.2%;
+}
+
+.description {
+    width: 48.2%;
+}
+
+.title p {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    color: rgba(214, 221, 230, 1);
+}
+
+.description p {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: rgba(214, 221, 230, 0.62);
+}
+
+
+@media (max-width: 768px) {
+
+
+    #title-and-description {
+        display: block;
+    }
+
+    .title {
+        width: 100%;
+    }
+    
+    .description {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- Cutout Image Section ----------------------------------------*/
+
+
+
+.explore-work {
+    display: flex;
+    align-items: center;
+    background: radial-gradient(184.11% 185.17% at 28.27% 7.59%, rgba(8, 15, 23, 0.7) 37.83%, rgba(163, 210, 96, 0.6) 100%);
+}
+
+.cyberpunk-art p:nth-child(1) {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    color: rgba(214, 221, 230, 1);
+    margin-bottom: 0;
+}
+
+.cyberpunk-art p:nth-child(2) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: rgba(214, 221, 230, 1);
+    margin-bottom: 0;
+}
+
+.cyberpunk-art button {
+    margin-top: 48px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: rgba(167, 238, 67, 1);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 10, 20, 1);
+}
+
+
+@media (max-width: 768px) {
+
+
+    .explore-work {
+        display: block;
+    }
+
+    .cutout-image {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        padding-left: 0;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- About Section ----------------------------------------*/
+
+
+
+#about-section {
+    padding: 96px 0;
+}
+
+#about-section div {
+    width: 50%;
+}
+
+#about-section div p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: rgba(214, 221, 230, 1);
+}
+
+
+@media (max-width: 768px) {
+
+
+    #about-section div {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- Contact Form Section ----------------------------------------*/
+
+
+
+#contact-form {
+    padding: 48px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+
+#contact-form-heading {
+    max-width: 700px;
+    margin-bottom: 48px;
+}
+
+.contact-form-heading p:nth-child(1) {
+    font-family: Domine;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(222, 222, 222, 1);
+}
+
+.contact-form-heading p:nth-child(2) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(222, 222, 222, 1);
+}
+
+form {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#first-name, #last-name {
+    width: 45%;
+    height: 44px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#email {
+    width: 100%;
+    height: 44px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#placeholder {
+    width: 100%;
+    height: 124px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 16px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(10, 10, 10, 1);
+    margin-bottom: 96px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+
+
+    #first-name, #last-name {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- Offered Services Section ----------------------------------------*/
+
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+}
+
+.services div {
+    width: 48.2%;
+}
+
+.services-heading p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: rgba(214, 221, 230, 1);
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-list p {
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(214, 221, 230, 1);
+}
+
+
+@media (max-width: 768px) {
+
+
+    .services {
+        display: block;
+    }
+
+    .services div {
+        width: 100%;
+    }
+
+
+}
+
+
+
+/*---------------------------------------- Testimonials Section ----------------------------------------*/
+
+
+
+.client-reviews {
+    padding: 48px 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.client-reviews h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(214, 221, 230, 1);
+    margin-bottom: 0;
+}
+
+.testimonial-cards {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 48px;
+}
+
+.testimonial {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    margin-right: 16px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.profile {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    margin-right: 12px;
+}
+
+.client-name {
+    width: 180px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.client-name p:nth-child(odd) {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(214, 221, 230, 1);
+    margin: 0;
+}
+
+.client-name p:nth-child(even) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(214, 221, 230, 0.62);
+    margin: 0;
+}
+
+.review {
+    width: 240px;
+}
+
+.review p {
+    width: 180px;
+    margin-left: 60px;
+    align-items: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(214, 221, 230, 0.62);
+}
+
+
+
+/*---------------------------------------- Footer ----------------------------------------*/
+
+
+
+footer {
+    padding: 96px 0 24px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: rgba(214, 221, 230, 0.62);
+}
+
+.footer button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(214, 221, 230, 0.2);
+    background-color: black;
+    color: rgba(214, 221, 230, 1);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
